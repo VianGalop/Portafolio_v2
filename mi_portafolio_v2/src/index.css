@@ -1,0 +1,29 @@
+/* @import "tailwindcss";
+
+
+
+body {
+  background: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+ */
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: white;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+.dark body {
+  background: black;
+  color: white;
+}

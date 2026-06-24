@@ -5,8 +5,10 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import AIChat from "./components/AIChat";
-/* import Chatbot from "./components/Chatbot"; */
+import { Scroll } from "./components/Scroll";
+/* import Chatbot from "./components/Chatbot"; 
+import AIChat from "./components/AIChat";*/
+
 
 function App() {
   return (
@@ -17,7 +19,8 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
-      <AIChat />
+      <Scroll/>
+      {/* <AIChat /> */}
       {/* <Chatbot /> */}
       <Footer />
     </>

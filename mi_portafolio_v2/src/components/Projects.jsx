@@ -16,15 +16,15 @@ function Projects() {
                 alt={project.title}
                 className="w-full h-64 object-cover"
               />
-              <div className="flex justify-between p-6">
-                <div className="w-64">
+              <div className="flex justify-between p-6  max-sm:flex-col">
+                <div className="w-3/4">
                   <h3 className="text-white text-2xl font-bold mb-3 ">
                     {project.title}
                   </h3>
                   <p className="text-gray-400">{project.description}</p>
                 </div>
-                <div className="flex px-1 text-sm text-gray-300 border border-gray-300 rounded-full">
-                  <a className="content-center" href={project.link}>
+                <div className="flex justify-center  px-2 text-sm text-gray-300 border border-gray-100 max-sm: py-3 my-3">
+                  <a className="content-center text-center" href={project.link}>
                     See Page
                   </a>
                 </div>

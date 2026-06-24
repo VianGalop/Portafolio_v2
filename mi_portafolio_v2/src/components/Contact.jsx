@@ -7,10 +7,10 @@ function Contact() {
         <p className="text-gray-400 mb-8">Disponible para oportunidades.</p>
 
         <a
-          href="mailto:correo@gmail.com"
+          href="mailto:vianygali10@gmail.com"
           className="border border-black dark:bg-white dark:text-black px-8 py-4 rounded-lg"
         >
-          Contactarme
+          Envíame un correo
         </a>
       </div>
     </section>

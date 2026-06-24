@@ -1,14 +1,14 @@
 function Hero() {
   return (
-    <section className="max-h-screen flex items-center py-25">
+    <section className="max-h-screen flex items-center py-25" id="hero">
       <div className=" mx-auto px-3  rounded-4xl flex  bg-[url(../../public/img/fondo2.jpg)] bg-cover bg-center bg-linear-to-65 from-gray-900 to-gray-500 max-w-sm:max-w-screen">
         <div className="w-5xl p-10 max-sm:w-screen max-md-w-screen">
-          <p className="text-green-400 mb-4">Hello, I am </p>
+          <p className="text-blue-800 mb-4">Hello, I am </p>
           <h1 className="text-6xl font-bold mb-4">Vianey Galicia </h1>
-          <h2 className="text-4xl text-gray-400 mb-6">Frontend Developer</h2>
-          <p className="max-w-xl text-gray-500 mb-8S">
-            Construyo interfaces modernas, rápidas Sy profesionales usandoS
-            React.
+          <h2 className="text-4xl text-gray-300 mb-6">Frontend Developer</h2>
+          <p className="max-w-lg text-white-400 mb-8 text-2xl ">
+            Construyendo interfaces modernas, rápidas y profesionales orientado a 
+            resultados que impulsan tu éxito.
           </p>
 
           <div className="flex gap-4 my-5">

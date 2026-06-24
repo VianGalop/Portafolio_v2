@@ -3,18 +3,29 @@ function About() {
     <section id="about" className="max-h-screen flex items-center py-16">
       <div className="max-w-6xl p-10 mx-auto flex justify-center max-sm:flex-col-reverse max-sm:max-w-screen">
         <div className="min-w-1/4 py-4 max-sm:mt-20 mx-10 rounded-4xl shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)] dark:shadow-[1.95px_1.95px_2.6px_rgba(27,31,35,0.15)]">
-          <img
+          {/* <img
             className="h-96 w-96 rounded-2xl"
             src="../../public/icons/avatar.svg"
             alt="Vian"
             loading="lazy"
+          /> */}
+          <img
+            className="h-96 w-96 rounded-2xl"
+            src="../../public/img/soyYo.png"
+            alt="Vianey"
+            loading="lazy"
           />
         </div>
         <div className="min-w-3/4 w-5xl px-5 max-sm:w-2xs">
-          <h2 className="text-4xl font-bold mb-8">About</h2>
-          <p className="text-gray-400 leading-8 ">
+          <h2 className="text-4xl font-bold mb-8">About me</h2>
+          <p className="text-gray-400 leading-8 text-white-400 mb-8 text-2xl ">
             Soy desarrollador web especializado en crear aplicaciones modernas
-            con React, JavaScript y Tailwind CSS.
+            con NodeJS, React, JavaScript y Tailwind CSS con el fin de contribuir al éxito de proyectos  
+            que satisfacen las necesidades de los usuarios finales en cualquier sector empresarial. 
+            Puedes ver algunos de mis trabajos en la sección de proyectos. 
+            Estoy abierto a colaborar en distintas oportunidades laborales donde pueda contribuir, aprender y crecer.
+            Si encuentras una buena oportunidad que se ajuste a mis habilidades y experiencia, 
+            no dudes en contactarme.
           </p>
         </div>
       </div>

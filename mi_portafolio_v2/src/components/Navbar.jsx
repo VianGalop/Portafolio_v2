@@ -23,6 +23,7 @@
 export default Navbar; */
 
 import ThemeToggle from "./ThemeToggle";
+import avatar from "../../public/icons/avatar.svg"
 
 function Navbar() {
   return (
@@ -31,7 +32,7 @@ function Navbar() {
         {/* <h1 className="font-bold text-xl">VianeyGL.dev</h1> */}
         <img
           className="h-10 w-10 rounded-s-3xl"
-          src="../../public/icons/avatar.svg"
+          src={avatar}
           alt="Vian"
           loading="lazy"
         />

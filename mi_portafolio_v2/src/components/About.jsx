@@ -1,3 +1,4 @@
+import soyYo  from "../../public/images/soyYo.png"
 function About() {
   return (
     <section id="about" className="max-h-screen flex items-center py-16">
@@ -11,7 +12,7 @@ function About() {
           /> */}
           <img
             className="h-96 w-96 rounded-2xl"
-            src="../../public/img/soyYo.png"
+            src={soyYo}
             alt="Vianey"
             loading="lazy"
           />

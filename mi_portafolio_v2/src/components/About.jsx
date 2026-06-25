@@ -1,4 +1,5 @@
-import soyYo  from "../../public/images/soyYo.png"
+import soyYo  from "../assets/images/SoyYo.png"
+
 function About() {
   return (
     <section id="about" className="max-h-screen flex items-center py-16">

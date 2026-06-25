@@ -1,9 +1,9 @@
-import fondoImagen  from "../../public/images/fondo2.jpg"
+import fondoImagen from "../assets/images/fondo2.jpg"
 
 function Hero() {
   return (
     <section className="max-h-screen flex items-center py-25" id="hero">
-      <div className='mx-auto px-3  rounded-4xl flex  bg-[url({fondoImagen})] bg-cover bg-center bg-linear-to-65 from-gray-900 to-gray-500 max-w-sm:max-w-screen'>
+      <div className="mx-auto px-3  rounded-4xl flex bg-cover bg-center bg-linear-to-65 from-gray-900 to-gray-500 max-w-sm:max-w-screen" style={{ backgroundImage: `url(${fondoImagen})` }}>
         <div className="w-5xl p-10 max-sm:w-screen max-md-w-screen">
           <p className="text-blue-800 mb-4">Hello, I am </p>
           <h1 className="text-6xl font-bold mb-4">Vianey Galicia </h1>

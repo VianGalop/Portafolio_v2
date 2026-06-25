@@ -1,5 +1,5 @@
 import React from 'react'
-import iconScroll from "../../public/images/muevase.png"
+import iconScroll from "../assets/images/muevase.png"
 
 export const Scroll = () => {
   return (

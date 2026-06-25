@@ -23,7 +23,8 @@
 export default Navbar; */
 
 import ThemeToggle from "./ThemeToggle";
-import avatar from "../../public/icons/avatar.svg"
+import avatar from "../assets/icons/avatar.svg"
+
 
 function Navbar() {
   return (
